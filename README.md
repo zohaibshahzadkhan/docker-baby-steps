@@ -42,3 +42,20 @@ Docker Hub is a hosted repository service provided by Docker for finding and sha
 ### Docker Eco-system  
 \
 ![docker eco-system](images/docker%20ecosystem.png)
+
+1. **Docker Daemon**: Runs on Host OS and it is responsible for running containers.
+
+2. **Docker Client**: Docker user can interact with docker daemon through client (it is a tool to communicate with docker daemon)
+    Docker client uses CLI and REST API for communication to docker daemon
+    
+3. **Docker Hub**: It is a registry that manage and store docker images. There are two type of registries in docker.
+    - Public Registry: also called docker hub (available to all)
+    - Private Registry: It is used to share a registry with in an enterprise
+    
+4. **Docker Images**: Docker images are read only binary templates used to create docker containers. Different ways to create docker images
+    - Take image from docker hub
+    - Create image from docker file
+    - Create image from existing running container
+    
+5. **Docker Images**: Docker container holds the entire package that is needed to run the application.
+
